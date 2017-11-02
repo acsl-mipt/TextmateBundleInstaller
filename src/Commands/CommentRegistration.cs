@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.Composition;
+using System.ComponentModel.Composition;
 using Microsoft.VisualStudio.Editor;
 using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
@@ -60,6 +60,7 @@ namespace TextmateBundleInstaller
                 case ".makefile":
                 case ".objective c":
                 case ".rust":
+                case ".decode":
                 case ".scala":
                 case ".stylus":
                 case ".swift":
